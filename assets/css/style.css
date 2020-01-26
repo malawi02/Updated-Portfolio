@@ -1,10 +1,10 @@
 
-body {
+  body {
     
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   
     
-    background-image: url("../imgs/ignasi_pattern_s.png");
+    background-image: url("../images/concrete_seamless.png");
   }
   
   html {
@@ -58,7 +58,7 @@ body {
     border: none;
   }
   
-  /* media query for nav background color change */
+  
   @media only screen and (max-width: 767px) {
     .navbar-header {
       background-color: #4aaaa5;
@@ -89,90 +89,86 @@ body {
   
   
   
-  /* BEGIN FOOTER */
+  
   .footer {
-    /* Positioning */
+    
     position: absolute;
     bottom: 0;
   
-    /* Box-model */
+    
     width: 100%;
     height: 60px;
   
-    /* Visual */
+    
     background-color: #666;
   }
   
   .text-muted-footer {
-    /* Box-model */
+    
     margin-top: 15px;
   
-    /* Typography */
+    
     color: #fff;
   }
   
   .two-toned-footer-color {
-    /* Box-model */
+    
     height: 6px;
     padding-top: 3px;
   
-    /* Visual */
+    
     background-color: #4aaaa5;
   }
-  /* END FOOTER */
-  /* --- END STYLES FOR ALL PAGES --- */
   
-  /* --- PAGE-SPECIFIC STYLES --- */
-  /* ABOUT-ME PAGE */
+  
   .about-me-header {
-    /* Positioning */
+   
     margin-bottom: 33px;
     font-family: Georgia, Times, "Times New Roman", serif;
   
-    /* Typography */
+   
     font-size: 32px;
     font-weight: bold;
     color: #4aaaa5;
   }
   
   #about-image {
-    /* Positioning */
+   
     float: left;
   
-    /* Box-model */
+   
     width: 200px;
     margin: 0 20px 10px 0;
+ 
   }
-  /* END ABOUT-ME PAGE */
   
-  
-  /* PORTFOLIO PAGE */
+ 
   .port-image {
     margin: 20px auto;
   }
-  /* END PORTFOLIO PAGE */
+ 
   
   
-  /* CONTACT FORM PAGE  */
+  
   .form-control {
-    /* give input boxes right angles */
+    
     border-radius: 0;
   
-    /* keep from horizontally resizing text area */
+    
     min-width: 100%;
     max-width: 100%;
   }
   
   .submit-btn {
-    /* Box-model */
+    
     padding: 15px 30px;
     font-size: 16px;
     font-weight: lighter;
   
-    /* Typography */
+    
     color: #fff;
   
-    /* Visual */
+   
     background-color: #4aaaa5;
     border: 0;
   }
@@ -181,5 +177,4 @@ body {
     opacity: .7;
   }
   
-  /* END CONTACT FORM PAGE */
   
